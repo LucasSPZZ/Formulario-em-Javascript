@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.est{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ccb4e4;
+    background-image: url(./images/bg-repeat.jpg);
+    background-size: contain;
+}
+.est-left{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 30px;
+}
+.est-left-h1{
+    color: white;
+    font-size: 40px;
+    width: 80%;
+    line-height: 42px;
+}
+.est-left-p{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+
+}
+.est-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    background-color: white;
+    height: 650px;
+    width: 550px;
+}
+.est-right-int{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+}
+.est-right-int-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    
+    
+}
+.est-right-int-input-int{
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 470px;
+    height: 50px;
+}
+input::-webkit-input-placeholder {
+    font-size:20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: top;
+    vertical-align: top;
+    
+  }
+#placeholder-msg{
+    height: 150px;
+}
+.est-right-int-p-sty{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.est-right-int-p{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    font-weight: 500;
+}
+.est-right-int-bnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.est-right-int-bnt:hover{
+    background-color: #ccb4e4;
+    cursor: pointer;
+}
+.est-right-int-bnt-sty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-radius:10px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s, border-color 0.3s;
+}
+.est-right-int-bnt-sty:hover{
+    background-color: #ccb4e4;
+    cursor: pointer;
+}
+.altura-msg{
+    height: 100px;
+}
+.erro-campo{
+    display: none;
+    color: red;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    padding: 0;
+    
+}
+.campo-invalido{
+    border: solid red 2px;
+    gap: 0;
+}
+.campo-valido {
+    border: 2px solid green;
+}
+
+
